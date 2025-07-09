@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pranati Prabhu | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <header>
+      <h1>Pranati Prabhu</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="profile">
+        <img src="pfp.jpeg" alt="Portrait of Pranati Prabhu" class="profile-pic" />
+        <div class="profile-text">
+          <h2>Hello! I'm Pranati Prabhu</h2>
+          <p>I am a web developer, passionate about building clean and functional websites.</p>
+          <p>Welcome to my personal space on the internet.</p>
+          <a href="#projects" class="btn">View My Projects</a>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>I'm Pranati Prabhu, a passionate web development enthusiast. I am currently pursuing Computer Science and Engineering from NMAM Institute of Technology, Nitte.</p>
+        <p>I specialize in building responsive websites and full-stack applications using HTML, CSS, JavaScript, Node.js, and MongoDB.</p>
+        <p>Currently, I'm doing an internship at Launched Global, where I’m enhancing my skills in frontend and backend development. I recently built a donation management system called <strong>The Gift Basket</strong> to connect donors with NGOs in a simple, transparent way.</p>
+        <p>I believe in clean code, meaningful design, and creating projects that have a positive impact. When I’m not coding, I love exploring beachside cafes, journaling, and deep-diving into new ideas.</p>
+      </section>
+
+      <section id="projects" class="projects-section">
+  <h2>My Projects</h2>
+
+  <article class="project-card">
+    <img src="proj.jpg" alt="The Gift Basket Project Screenshot" class="project-icon" />
+    <div class="project-info">
+      <h3>The Gift Basket</h3>
+      <p>A donation management platform for NGOs and donors. Users can register, donate, and track their impact, while NGOs manage events transparently.</p>
+      <div class="project-links">
+        <a href="https://github.com/17pran/gift-basket" class="btn" target="_blank">GitHub Repo</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <img src="weather-app.jpg" alt="React Weather App Screenshot" class="project-icon" />
+    <div class="project-info">
+      <h3>React Weather App</h3>
+      <p>This weather app allows users to enter any city name and instantly view the current temperature, wind speed, and general weather conditions. Built using React.js for dynamic rendering and CSS for sleek styling, it fetches real-time data from a weather API and offers a clean, intuitive user interface.</p>
+      <div class="project-links">
+        <a href="https://github.com/17pran/weather-app" class="btn" target="_blank">GitHub Repo</a>
+        <!-- Optional: add live demo link -->
+        <!-- <a href="https://your-weather-app.vercel.app/" class="btn" target="_blank">Live Demo</a> -->
+      </div>
+    </div>
+  </article>
+</section>
+
+
+      <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form class="contact-form" action="#" method="post">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Pranati Prabhu. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/17pran" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+        <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

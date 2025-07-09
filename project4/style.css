@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.gallery {
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.gallery img {
+  float: left;
+  width: 30%;
+  margin: 1.5%;
+  height: auto;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .gallery img {
+    width: 96%;
+    margin: 2%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .gallery img {
+    width: 46%;
+    margin: 2%;
+  }
+}
+
+@media (min-width: 901px) {
+  .gallery img {
+    width: 30%;
+    margin: 1.5%;
+  }
+}

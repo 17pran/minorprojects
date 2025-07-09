@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, serif;
+  background-color: #fdf6e3;
+  color: #3c2f2f;
+  line-height: 1.8;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #d2a24c;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #a65f00;
+  letter-spacing: 1px;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  background: #fffaf0;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e8d2a8;
+}
+
+article header h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #704214;
+}
+
+article header time {
+  font-style: italic;
+  color: #876c43;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+section h3 {
+  font-size: 1.5rem;
+  color: #6b3e26;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  margin-bottom: 1.2rem;
+  text-align: justify;
+}
+
+figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #d3b88c;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #6d4c41;
+}
+
+#tags span {
+  background-color: #e6c27a;
+  padding: 0.2rem 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+#comments {
+  border-top: 2px solid #d2a24c;
+  padding-top: 2rem;
+  margin-top: 2rem;
+}
+
+#comments h3 {
+  font-size: 1.6rem;
+  color: #a65f00;
+  margin-bottom: 1rem;
+}
+
+#comments article {
+  background-color: #fff6e0;
+  border: 1px solid #e5c899;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+#comments h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+  color: #5e3b23;
+}
+
+#comments time {
+  font-size: 0.9rem;
+  color: #8a6d3b;
+}
+
+#comment-form h3 {
+  margin-bottom: 1rem;
+  color: #a65f00;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #d2a24c;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+form button {
+  background-color: #d2a24c;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+form button:hover {
+  background-color: #b8892c;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  color: #84613c;
+  border-top: 1px solid #d2a24c;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  figure img {
+    width: 100%;
+  }
+}

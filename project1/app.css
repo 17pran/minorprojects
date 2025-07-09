@@ -1,0 +1,157 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+  }
+  
+  body {
+    background-color: #cbb3e4;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: rgba(73, 96, 118, 0.9);
+    color: white;
+    text-align:center;
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  h1{
+    text-align: left;
+    padding:0.6%;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #D291BC;
+  }
+  
+  main {
+    flex: 1;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .profile {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    color: #4a90e2;
+    margin-bottom: 10px;
+  }
+  
+  .projects-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px 0;
+  }
+  
+  .project-card {
+    background-color: white;
+    flex: 1 1 30%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgba(73, 96, 118, 0.9);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #357ab8;
+  }
+  
+  form {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    color: #555;
+    font-size: 0.9em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top: 1px solid #ddd;
+    margin-top: auto;
+  }
+  
